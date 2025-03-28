@@ -56,7 +56,6 @@ body {
 
 .sidebar ul li::before {
     content: "\2022";
-    /* Bullet point */
     color: white;
     display: inline-block;
     width: 1em;
