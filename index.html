@@ -1,158 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Komal Kumari - Front-End Developer Resume</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Komal Kumari - Front-End Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
 </head>
+
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="name">
-                <h1>KOMAL KUMARI</h1>
+    <header>
+        <div class="container">
+            <h1>Komal Kumari</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="profile">
+                    <img src="image/logok.png" alt="Komal Kumari">
+                </div>
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>
+                        Aspiring Front-End Developer with a passion for creating innovative web solutions. With a Master's
+                        in Science, I've honed skills in HTML, CSS, and JavaScript. My experience as a Freelance Shopify
+                        Developer has equipped me with practical skills. Eager to learn and contribute to dynamic teams.
+                        
+                    </p>
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-envelope"></i> <a
+                                href="mailto:komal.uidev@gmail.com">komal.uidev@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i> +91-9653110285</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Zirapkar, Mona Areoview, Swastik vihar.</p>
+                        </div>
+                </div>
             </div>
-            <section class="contact-info">
-                <p>
-                    <i class="fa-solid fa-envelope"></i> <a href="mailto:komal.uidev@gmail.com">komal.uidev@gmail.com</a><br>
-                    <i class="fa-solid fa-phone"></i> +91-9653110285<br>
-                    <i class="fa-solid fa-location-dot"></i> Zirakpur, Mona Areoview, Swastik vihar.
-                </p>
-            </section>
-            <section class="strengths">
-                <h2>STRENGTHS</h2>
-                <div class="strength-item">
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <p><strong>Soft Skills</strong></p>
-                    <ul>
-                        <li>Strong communication and interpersonal abilities</li>
-                        <li>Adaptability and a quick learner</li>
-                    </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML : Semantic HTML, forms, tables, accessibility.</li>
+                            <li>CSS : Responsive design, Flexbox, Grid, animations. </li>
+                            <li>JavaScript : DOM, ES6+, APIs, debugging.</li>
+                            <li>Bootstrap : Components, grid system.</li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Version Control</h3>
+                        <ul>
+                            <li>Git : Version control, branching, merging. </li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Shopify Development</h3>
+                        <ul>
+                            <li>Liquid : Templating language.</li>
+                            <li>Theme Customization</li>
+                            <li>Shopify APIs</li>
+                            <li>SEO Optimization</li>
+                            <li>App Integration</li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Strong communication</li>
+                            <li>Adaptability</li>
+                            <li>Quick learner</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
-            <section class="achievements">
-                <h2>KEY ACHIEVEMENTS</h2>
-                <div class="achievement-item">
-                    <i class="fa-solid fa-code"></i>
-                    <p><strong>User Interface Development</strong></p>
-                    <p>Successfully developed and optimized user interfaces for various clients, enhancing their web presence and functionality.</p>
-                </div>
-            </section>
-            <section class="skills">
-                <h2>SKILLS</h2>
-                <div class="skill-item">
-                    <p><strong>Web Development</strong></p>
-                    <ul>
-                        <li>HTML : Semantic HTML, forms, tables, accessibility best practices, creating reusable templates.</li>
-                        <li>CSS : Responsive design with media queries, layout techniques (Flexbox, Grid), positions, transitions, animations, and custom styling.</li>
-                        <li>JavaScript : DOM manipulation, ES6+ features, event handling, APIs (fetch, axios), modular programming, debugging, and form validations.</li>
-                        <li>Bootstrap : Utilizing Bootstrap components, grid system, utility classes, and custom styling.</li>
-                    </ul>
-                </div>
-                <div class="skill-item">
-                    <p><strong>Shopify Development</strong></p>
-                    <ul>
-                        <li>Liquid : Shopify's templating language for theme customization.</li>
-                        <li>Theme Customization : Designing and modifying Shopify themes to meet client requirements.
-                        </li>
-                        <li>Shopify APIs : Implementing store features, product filtering, and dynamic content. 
-                        </li>
-                        <li>SEO Optimization : Optimizing Shopify stores for search engines. </li>
-                        <li>App Integration : Integrating third-party Shopify apps to enhance store functionality.
-                        </li>
-                    </ul>
-                </div>
-                <div class="skill-item">
-                    <p><strong>Version Control</strong></p>
-                    <ul>
-                        <li>Git : Version control, branching, merging, resolving conflicts, and collaborative workflows using GitHub.</li>
-                    </ul>
-                </div>
-            </section>
-        </aside>
-        <main class="main-content">
-            <section class="header">
-                <h2>Front-End Developer</h2>
-                <p>
-                    <i class="fa-regular fa-envelope"></i> <a href="mailto:komal.uidev@gmail.com">komal.uidev@gmail.com</a>  <a href="#">LinkedIn/Portfolio</a>
-                </p>
-                <p><i class="fa-solid fa-location-dot"></i> Zirakpur, Mona Areoview, Swastik vihar</p>
-            </section>
-            <section class="summary">
-                <h2>SUMMARY</h2>
-                <p>Aspiring to leverage my technical and communication skills as a Front-End Developer, contributing to innovative projects while expanding my expertise in web development.</p>
-            </section>
-            <section class="experience">
-                <h2>EXPERIENCE</h2>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
                 <div class="experience-item">
                     <h3>Shopify Developer</h3>
                     <p class="company">Freelance <span class="location">Remote</span></p>
                     <p class="duration">August 2022 – August 2023</p>
                     <ul>
-                        <li>Customized Shopify themes using Liquid, HTML, CSS, and JavaScript.</li>
-                        <li>Implemented store features, product filtering, and dynamic content using Shopify APIs.</li>
-                        <li>Optimized Shopify stores for better performance, responsiveness, and SEO.</li>
-                        <li>Integrated third-party Shopify apps to enhance store functionality. </li>
+                        <li>Customized Shopify themes.</li>
+                        <li>Implemented store features.</li>
+                        <li>Optimized Shopify stores.</li>
+                        <li>Integrated third-party apps.</li>
                     </ul>
-                    <h3>Projects</h3>
-                    <ul>
-                        <li>
-                          
-                            <a href="https://shlazio.com/" target="_blank">Shlazio</a>: A Shopify store focusing on many Hair care and Skin care products.
-                        </li>
-                        <li>
-                            <a href="https://www.pokonut.com/" target="_blank">Pokonut</a>: Another Shopify store project.
-                        </li>
-                    </ul>
-                    
                 </div>
-                 <div class="experience-item">
+                <div class="experience-item">
                     <h3>Junior Developer</h3>
-                    <p class="company">Intelliveer, USA <span class="location"></span></p>
+                    <p class="company">Intelliveer, USA </p>
                     <p class="duration">November 2023 – August 2024</p>
                     <ul>
-                        <li>Developed and maintained responsive user interfaces using HTML, CSS, and JavaScript.</li>
-                        <li>Collaborated with cross-functional teams to deliver high-quality web solutions. </li>
-                        <li>Optimized websites for performance and accessibility. </li>
-                         <li>Utilized Git for version control and team collaboration.</li>
+                        <li>Developed and maintained UIs.</li>
+                        <li>Collaborated with teams. </li>
+                        <li>Optimized websites.</li>
+                        <li>Utilized Git.</li>
                     </ul>
                 </div>
-            </section>
-            <section class="projects">
-                <h2>PROJECTS</h2>
-                <div class="project-item">
-                    <h3>Responsive Portfolio Website</h3>
-                    <p>
-                        Designed and developed a personal portfolio using HTML, CSS, and Bootstrap. 
-                        Integrated interactive components using JavaScript.
-                    </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="image/responsive.png" alt="Responsive Portfolio Website">
+                        <h3>Responsive Portfolio Website</h3>
+                        <p>Designed and developed a personal portfolio using HTML, CSS, and Bootstrap.</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="image/kids.png" alt="E-commerce Template">
+                        <h3>E-commerce Template</h3>
+                        <p>Created a responsive e-commerce web template. [cite: 15]</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="image/Website.png" alt="Shlazio">
+                        <h3>Shlazio</h3>
+                        <p>A Shopify store focusing on hair removal products. <a href="https://shlazio.com/"
+                                target="_blank">View</a></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="image/pokonut.png" alt="Pokonut">
+                        <h3>Pokonut</h3>
+                        <p>Another Shopify store project. <a href="https://www.pokonut.com/" target="_blank">View</a></p>
+                    </div>
                 </div>
-                <div class="project-item">
-                    <h3>E-commerce Template</h3>
-                    <p>
-                        Created a responsive e-commerce web template. 
-                        Used Git for version control and collaboration.
-                    </p>
+            </div>
+        </section>
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skill-item">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                        <div class="skill-percentage">95%</div>
+                    </div>
                 </div>
-            </section>
-            <section class="education">
-                <h2>EDUCATION</h2>
-                <div class="education-item">
-                    <h3>Master of Science (M.Sc.)</h3>
-                    <p>Guru Nanak Dev University</p>
-                    <p>Focus on advanced computational and analytical studies.</p>
+                <div class="skill-item">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
                 </div>
-            </section>
-            <section class="additional-info">
-                <h2>ADDITIONAL INFORMATION</h2>
-                <p>
-                    Passionate about teaching and learning new technologies.<br>
-                    Enthusiastic about exploring innovative front-end development techniques<br>
-                    IELTS certified with a score of 6.5 (2022)
-                </p>
-            </section>
-        </main>
-    </div>
+                <div class="skill-item">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="progress" style="width: 88%;"></div>
+                        <div class="skill-percentage">88%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Responsive Design</div>
+                    <div class="skill-bar">
+                        <div class="progress" style="width: 92%;"></div>
+                        <div class="skill-percentage">92%</div>
+                    </div>
+                </div>
+                <p class="design-note">Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Komal Kumari</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
