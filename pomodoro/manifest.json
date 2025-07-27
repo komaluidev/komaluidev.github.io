@@ -13,7 +13,7 @@
       "type": "image/png"
     },
     {
-      "src": "/images/icons/icon-maskable-512x512.png",
+      "src": "/images/pomodoro.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
